@@ -21,7 +21,7 @@ export default function Header1(){
 
          <div className='h-15/12 bg-neutral-100 grow rounded-md px-0 flex'>
 
-         <input className='w-full h-full text-right text-neutral-500' type="text" placeholder='جستجو' />
+         <input className='w-full h-full text-right text-neutral-500 items-center justify-center flex' type="text" placeholder='جستجو' />
 
          <img className='flex cursor-pointer opacity-25 size-7 m-2' src="./src/images/search.svg" alt="search" />
 
