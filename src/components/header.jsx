@@ -8,9 +8,15 @@ export default function Header1(){
       <a href='#' className='bg-green-600 rounded-sm transition delay-150 duration-300 ease-in-out m-1 p-1 '>login</a>
       </div>
 
-        <div className=''>
-        <img src="./images/logo.svg" alt="" />
+        <div className='flex items-center w-200 gap-4'>
+
+        <div className=' bg-neutral-100 grow rounded px-0 lg:px-4 text-body-2'>
+         <input className='w-full h-full text-right text-neutral-500' type="text" placeholder='جستجو ' />
         </div>
+        <img  className='w-50 inline-block' src="./src/images/logo.svg" alt="digikala" />
+       
+        </div>
+        
 
         
       </header>
