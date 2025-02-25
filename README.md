@@ -4,10 +4,6 @@ im starting to learn react and vite so i decided to make a simple website for a 
 
 this is the first website i made so it may be not perfect but i will try my best to make it better.
 
+*its not like a real digikala website and lot of tags are different.
 
-
-
-
-<h1>*its not like a real digikala website and lot of tags are different.</h1>
-
-<h2>*i used html, tailwind css, react and vite.</h2>    
+*i used html, tailwind css, react and vite.
