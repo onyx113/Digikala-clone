@@ -35,8 +35,10 @@ export default function Header1(){
       </div>
 
       <nav className='flex top-0 sticky gap-5 text-right items-center pr-3 w-full mt-18 p-2 shadow-lg' dir="rtl">
-        <span className='group opacity-85 cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>دسته بندی کالاها
+        <span className=' group opacity-85 cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>دسته بندی کالاها
+        
         <Daste/>
+
         </span>
         <div className='opacity-50 inline-flex gap-2'>
           <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>شگفت انگیز</div>
