@@ -40,7 +40,7 @@ export default function Header1(){
         <Daste/>
 
         </span>
-        <div className='opacity-50 inline-flex gap-2'>
+        <div className='opacity-50 z-100 inline-flex gap-2'>
           <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>شگفت انگیز</div>
           <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>سوپر مارکت</div>
           <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>طلای دیجیتال</div>

@@ -20,7 +20,7 @@ export default function Daste(){
                                 <li className='px-4 py-2 hover:bg-gray-100'>آیتم سوم</li>
                             </ul>
                         </li>
-                        <li className='group/inner px-4 py-2 hover:text-red-500  hover:bg-gray-100'>
+                        <li className=' group/inner px-4 py-2 hover:text-red-500  hover:bg-gray-100'>
                             موبایل
                             <ul className='absolute right-full top-0 hidden group-hover/inner:block bg-white shadow-lg w-200'>
                             <div className='mt-10 container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6'>
@@ -37,7 +37,7 @@ export default function Daste(){
                 <li className='hover:text-red-500'>آیفون 13</li>
                 <li className='hover:text-red-500'>آیفون 12</li>
                 <li className='hover:text-red-500'>آیفون 11</li>
-                <li className='hover:text-red-500'>گوشی سامسونگ سری Z</li>
+                <li className='hover:text-red-500'>گوشی سامسونگ سری z-2</li>
             </ul>
         </div>
         
