@@ -3,35 +3,37 @@ export default function Footer1() {
       <footer className="bg-gray-100 text-gray-700 p-8 text-right rtl">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center">
-            <img src="/icons/original-product.png" alt="ضمانت اصل بودن کالا" className="w-12 h-12" />
+            <img src="./src/images/Footer/zemanat.svg" alt="ضمانت اصل بودن کالا" className="w-12 h-12" />
             <p className="mt-2">ضمانت اصل بودن کالا</p>
           </div>
           <div className="flex flex-col items-center">
-            <img src="/icons/return-policy.png" alt="هفت روز ضمانت بازگشت کالا" className="w-12 h-12" />
+            <img src="./src/images/Footer/haft.svg" alt="هفت روز ضمانت بازگشت کالا" className="w-12 h-12" />
             <p className="mt-2">هفت روز ضمانت بازگشت کالا</p>
           </div>
           <div className="flex flex-col items-center">
-            <img src="/icons/24-support.png" alt="۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم" className="w-12 h-12" />
-            <p className="mt-2">۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم</p>
+            <img src="./src/images/Footer/24saat.svg" alt="۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم" className="w-12 h-12" />
+            <p className="mt-2"> هفت روز هفته ،  24 ساعته پاسخگوی شما هستیم</p>
           </div>
           <div className="flex flex-col items-center">
-            <img src="/icons/cash-payment.png" alt="امکان پرداخت در محل" className="w-12 h-12" />
+            <img src="./src/images/Footer/emk-pardakh.svg" alt="امکان پرداخت در محل" className="w-12 h-12" />
             <p className="mt-2">امکان پرداخت در محل</p>
           </div>
         </div>
         
         <div className="container mx-auto mt-8 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1 order-2 md:order-1">
-            <p className="font-bold">همراه ما باشید!</p>
-            <div className="flex space-x-4 mt-2">
-              <img src="/icons/instagram.png" alt="Instagram" className="w-6 h-6" />
-              <img src="/icons/twitter.png" alt="Twitter" className="w-6 h-6" />
-              <img src="/icons/linkedin.png" alt="LinkedIn" className="w-6 h-6" />
+            <p className="font-bold">!همراه ما باشید</p>
+            <div dir="rtl" className="opacity-50 flex space-x-4 mt-2">
+              <img src="./src/images/Footer/insta.svg" alt="Instagram" className="w-6 h-6" />
+              <img src="./src/images/Footer/twiter.svg" alt="Twitter" className="w-6 h-6" />
+              <img src="./src/images/Footer/lin.svg" alt="LinkedIn" className="w-6 h-6" />
+              <img src="./src/images/Footer/aparat.svg" alt="aparat" className="w-6 h-6" />
             </div>
             <p className="mt-4">با ثبت ایمیل، از جدیدترین تخفیف‌ها باخبر شوید</p>
-            <div className="flex mt-2">
-              <input type="email" placeholder="ایمیل شما" className="border p-2 rounded-lg" />
-              <button className="bg-gray-500 text-white px-4 py-2 rounded-lg mr-2">ثبت</button>
+            <div className="flex justify-end  mt-2">
+            <button className="bg-gray-500 text-white px-4 py-2 rounded-lg mr-2">ثبت</button>
+              <input type="email" placeholder="ایمیل شما" className="bg-gray-300 p-2 w-200 rounded-lg" />
+              
             </div>
           </div>
           
