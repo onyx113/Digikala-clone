@@ -28,16 +28,16 @@ const BannerSlider = () => {
   };
 
   return (
-    <div className="relative w-full h-[600px] overflow-hidden">
+    <div className="relative w-full  overflow-hidden">
       <div
-        className="mt-10  flex transition-transform duration-700 ease-in-out"
+        className="mt-10 h-[350px] flex transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {banners.map((banner, index) => (
           <img key={index} src={banner} alt={`Banner ${index + 1}`} className="w-full flex-shrink-0" />
         ))}
       </div>
-      <div className="mb-65 absolute bottom-2 right-4 flex space-x-2">
+      <div className=" mb-5 absolute bottom-2 right-4 flex space-x-2">
         <button
           onClick={prevSlide}
           className="bg-gray-800 p-2 text-white rounded-full"
