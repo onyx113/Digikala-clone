@@ -1,4 +1,5 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useRef } from "react";
 
 const products = [
   {
@@ -60,34 +61,51 @@ const products = [
 ];
 
 export default function ProductSlider() {
+  const scrollRef = useRef(null);
+
+  const handlePrev = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: -200, behavior: 'smooth' });
+    }
+  };
+
+  const handleNext = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: 200, behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="relative bg-red-500 p-4 rounded-lg">
       <div className="flex items-center relative">
-        <div className="absolute left-4 top-1/2 transform -translate-y-1/2 flex flex-col space-y-2 z-10">
-          <button className="p-2 bg-white rounded-full shadow-md">
+        <div className="absolute top-1/2 transform -translate-y-1/2 flex flex-col space-y-2 z-10">
+          <button onClick={handlePrev} className="p-2 bg-white rounded-full shadow-md">
             <ChevronLeft />
           </button>
-          <button className="p-2 bg-white rounded-full shadow-md">
+          <button onClick={handleNext} className="p-2 bg-white rounded-full shadow-md">
             <ChevronRight />
           </button>
         </div>
-        <div className="overflow-x-auto w-full whitespace-nowrap scrollbar-hide">
+        <div ref={scrollRef} className="overflow-x-auto w-full whitespace-nowrap scrollbar-hide">
           <div className="flex space-x-4 ml-12">
             {products.map((product) => (
               <div
                 key={product.id}
                 className="bg-white rounded-lg p-4 shadow-md flex flex-col items-center w-56 inline-block"
               >
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-24 h-24 object-cover"
-                />
-                <h3 className="text-sm font-semibold mt-2 text-center">
+                <div className="flex items-center">
+                  
+                  <img
+                    src={product.image}
+                    alt={product.name}
+                    className="w-24 h-24 object-cover"
+                  />
+                </div>
+                <h3 className="text-sm font-semibold mt-2 text-center truncate w-full">
                   {product.name}
                 </h3>
-                <p className="text-red-600 font-bold">{product.price} تومان</p>
-                <p className="line-through text-gray-500 text-sm">{product.oldPrice}</p>
+                <p className="text-red-600 font-bold truncate w-full">{product.price} تومان</p>
+                <p className="line-through text-gray-500 text-sm truncate w-full">{product.oldPrice}</p>
                 <span className="bg-red-200 text-red-700 px-2 py-1 rounded-md text-xs">
                   {product.discount}
                 </span>
@@ -95,6 +113,7 @@ export default function ProductSlider() {
             ))}
           </div>
         </div>
+        <img className="right-0 flex justify-end" src="/src/images/Amazings.svg" alt="Amazings" />
       </div>
     </div>
   );

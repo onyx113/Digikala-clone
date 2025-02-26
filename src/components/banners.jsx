@@ -31,7 +31,7 @@ const BannerSlider = () => {
   };
 
   return (
-    <div className="z-1 relative w-full overflow-hidden">
+    <div className="-z-1 relative w-full overflow-hidden">
       <Daste className="absolute top-0 left-0" />
       <div
         className="mt-10  h-[350px] flex transition-transform duration-700 ease-in-out"
