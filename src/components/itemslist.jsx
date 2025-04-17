@@ -91,7 +91,7 @@ export default function ProductSlider() {
             {products.map((product) => (
               <div
                 key={product.id}
-                className="bg-white rounded-lg p-4 shadow-md flex flex-col items-center w-56 inline-block"
+                className="bg-white rounded-lg p-4 shadow-md flex flex-col items-center w-56"
               >
                 <div className="flex items-center">
                   

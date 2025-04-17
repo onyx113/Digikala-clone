@@ -7,9 +7,9 @@ export default function Reels() {
   const sliderRef = useRef(null);
 
   const stories = [
-    { id: 1, title: "کیت ته", img: "url1" },
-    { id: 2, title: "بادوم زمینی از نوع هوایی", img: "url2" },
-    { id: 3, title: "خرده‌ بازار قسمت دوم", img: "url3" },
+    { id: 1, title: "کیت ته", img: "./src/images/reel1.png" },
+    { id: 2, title: "بادوم زمینی از نوع هوایی", img: "./src/images/reel2.png" },
+    { id: 3, title: "خرده‌ بازار قسمت دوم", img: "./src/images/reel3.png" },
     { id: 4, title: "بررسی کامل ردمی نوت ۱۴ پرو پلاس", img: "url4" },
     { id: 5, title: "نسل جدید شارژر", img: "url5" },
     { id: 6, title: "سه بعدی پکشن", img: "url6" },

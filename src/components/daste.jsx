@@ -5,19 +5,89 @@ export default function Daste(){
                 <li className='group hover:bg-gray-100 text-right cursor-pointer transition-colors duration-200'>
                     <ul className='absolute right-0 top-0 hidden group-hover:block bg-white shadow-lg w-48'>
                         <li className='group/inner px-4 py-2 hover:text-red-500  hover:bg-gray-100'>
-                            1تست
-                            <ul className='absolute right-full top-0 hidden group-hover/inner:block bg-white shadow-lg w-48'>
-                                <li className='px-4 py-2 hover:bg-gray-100'>زیر منوی تست</li>
-                                
-                                <li className='px-4 py-2 hover:bg-gray-100'>آیتم سوم</li>
+                            مد و پوشاک
+                            <ul className='absolute right-full top-0 hidden group-hover/inner:block bg-white shadow-lg w-200'>
+                                <div className='mt-10 container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6'>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>محصولات جدید</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>پیراهن مردانه</li>
+                                            <li className='hover:text-red-500'>شلوار جین</li>
+                                            <li className='hover:text-red-500'>کفش ورزشی</li>
+                                            <li className='hover:text-red-500'>کیف دستی زنانه</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>لوازم جانبی مد</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>کمربند</li>
+                                            <li className='hover:text-red-500'>کلاه</li>
+                                            <li className='hover:text-red-500'>عینک آفتابی</li>
+                                            <li className='hover:text-red-500'>ساعت مچی</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>محصولات براساس قیمت</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>محصولات ارزان</li>
+                                            <li className='hover:text-red-500'>محصولات تا ۵۰۰ هزار تومان</li>
+                                            <li className='hover:text-red-500'>محصولات تا ۱ میلیون تومان</li>
+                                            <li className='hover:text-red-500'>محصولات بالای ۱ میلیون تومان</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>برندهای مختلف مد</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>برند نایک</li>
+                                            <li className='hover:text-red-500'>برند آدیداس</li>
+                                            <li className='hover:text-red-500'>برند زارا</li>
+                                            <li className='hover:text-red-500'>برند گوچی</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </ul>
                         </li>
                         <li className='group/inner px-4 py-2 hover:text-red-500  hover:bg-gray-100'>
-                            2تست
-                            <ul className='absolute right-full top-0 hidden group-hover/inner:block bg-white shadow-lg w-48'>
-                                <li className='px-4 py-2 hover:bg-gray-100'>زیر منوی تست</li>
-                                <li className='px-4 py-2 hover:bg-gray-100'>آیتم دوم</li>
-                                <li className='px-4 py-2 hover:bg-gray-100'>آیتم سوم</li>
+                            کالای دیجیتال
+                            <ul className='absolute right-full top-0 hidden group-hover/inner:block bg-white shadow-lg w-200'>
+                                <div className='mt-10 container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6'>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>محصولات جدید</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>لپ‌تاپ گیمینگ</li>
+                                            <li className='hover:text-red-500'>تبلت سامسونگ</li>
+                                            <li className='hover:text-red-500'>دوربین دیجیتال</li>
+                                            <li className='hover:text-red-500'>هدفون بی‌سیم</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>لوازم جانبی دیجیتال</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>کیبورد مکانیکی</li>
+                                            <li className='hover:text-red-500'>ماوس گیمینگ</li>
+                                            <li className='hover:text-red-500'>پاوربانک</li>
+                                            <li className='hover:text-red-500'>کابل HDMI</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>محصولات براساس قیمت</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>محصولات ارزان</li>
+                                            <li className='hover:text-red-500'>محصولات تا ۱ میلیون تومان</li>
+                                            <li className='hover:text-red-500'>محصولات تا ۳ میلیون تومان</li>
+                                            <li className='hover:text-red-500'>محصولات بالای ۳ میلیون تومان</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h2 className='text-lg font-bold text-black border-r-2 hover:text-red-500 border-red-500 pb-2'>برندهای مختلف دیجیتال</h2>
+                                        <ul className='mt-2 space-y-1 text-gray-700'>
+                                            <li className='hover:text-red-500'>برند اپل</li>
+                                            <li className='hover:text-red-500'>برند سامسونگ</li>
+                                            <li className='hover:text-red-500'>برند سونی</li>
+                                            <li className='hover:text-red-500'>برند ال‌جی</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </ul>
                         </li>
                         <li className=' group/inner px-4 py-2 hover:text-red-500  hover:bg-gray-100'>
@@ -94,3 +164,5 @@ export default function Daste(){
         </div>
     )
 }
+
+

@@ -14,7 +14,7 @@ function App() {
     <>
       <Header1 />
       <Reels />
-      <br/>
+      
       <BannerSlider/>
       <br/>
       <ProductSlider/>
