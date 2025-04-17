@@ -7,18 +7,18 @@ export default function Reels() {
   const sliderRef = useRef(null);
 
   const stories = [
-    { id: 1, title: "کیت ته", img: "./src/images/reel1.png" },
-    { id: 2, title: "بادوم زمینی از نوع هوایی", img: "./src/images/reel2.png" },
+    { id: 1, title: "کیت ته", img: "./src/images/reel3.png" },
+    { id: 2, title: "بادوم زمینی از نوع هوایی", img: "./src/images/reel3.png" },
     { id: 3, title: "خرده‌ بازار قسمت دوم", img: "./src/images/reel3.png" },
-    { id: 4, title: "بررسی کامل ردمی نوت ۱۴ پرو پلاس", img: "url4" },
-    { id: 5, title: "نسل جدید شارژر", img: "url5" },
-    { id: 6, title: "سه بعدی پکشن", img: "url6" },
-    { id: 7, title: "اتوبان برق!", img: "url7" },
-    { id: 8, title: "بهترین کابل HDMI با اختلاف", img: "url8" },
-    { id: 9, title: "خفن‌ترین هدفون شیائومی", img: "url9" },
-    { id: 10, title: "هدفون جدید هایلو X1 2023", img: "url10" },
-    { id: 11, title: "خوشگل‌ترین هدفون اقتصادی", img: "url11" },
-    { id: 12, title: "آش رشته با پیمینا", img: "url12" },
+    { id: 4, title: "بررسی کامل ردمی نوت ۱۴ پرو پلاس", img: "./src/images/reel3.png" },
+    { id: 5, title: "نسل جدید شارژر", img: "./src/images/reel3.png" },
+    { id: 6, title: "سه بعدی پکشن", img: "./src/images/reel3.png" },
+    { id: 7, title: "اتوبان برق!", img: "./src/images/reel3.png" },
+    { id: 8, title: "بهترین کابل HDMI با اختلاف", img: "./src/images/reel3.png" },
+    { id: 9, title: "خفن‌ترین هدفون شیائومی", img: "./src/images/reel3.png" },
+    { id: 10, title: "هدفون جدید هایلو X1 2023", img: "./src/images/reel3.png" },
+    { id: 11, title: "خوشگل‌ترین هدفون اقتصادی", img: "./src/images/reel3.png" },
+    { id: 12, title: "آش رشته با پیمینا", img: "./src/images/reel3.png" },
   ];
   
   const scroll = (direction) => {
