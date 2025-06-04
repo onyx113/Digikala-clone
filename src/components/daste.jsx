@@ -1,9 +1,9 @@
 export default function Daste(){
     return(
-        <div className='w-35 space-y-5 absolute group-hover:block pb-3 pt-3 '>
+        <div className='w-35 space-y-5 absolute group-hover:block pb-3 pt-3 z-50'>
             <ul>
-                <li className='group hover:bg-gray-100 text-right cursor-pointer transition-colors duration-200'>
-                    <ul className='absolute right-0 top-0 hidden group-hover:block bg-white shadow-lg w-48'>
+                <li className=' group hover:bg-gray-100 text-right cursor-pointer transition-colors duration-200'>
+                    <ul className='relative right-0 top-0 hidden group-hover:block bg-white shadow-lg w-48'>
                         <li className='group/inner px-4 py-2 hover:text-red-500  hover:bg-gray-100'>
                             مد و پوشاک
                             <ul className='absolute right-full top-0 hidden group-hover/inner:block bg-white shadow-lg w-200'>

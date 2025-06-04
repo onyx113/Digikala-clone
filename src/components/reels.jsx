@@ -28,7 +28,7 @@ export default function Reels() {
   };
 
   return (
-    <div className="flex justify-center mt-10 relative w-full overflow-hidden px-4 -z-100">
+    <div className="flex justify-center mt-10 relative w-full overflow-x-auto px-4 py-34 -z-100">
       <button
         className="absolute left-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md"
         onClick={() => scroll(-1)}
@@ -38,7 +38,7 @@ export default function Reels() {
 
       <div
         ref={sliderRef}
-        className="flex gap-4 overflow-x-auto scrollbar-hide scroll-smooth"
+        className="flex gap-4 overflow-x-auto scroll-smooth"
         style={{ scrollbarWidth: "none" }}
       >
         {stories.map((story) => (

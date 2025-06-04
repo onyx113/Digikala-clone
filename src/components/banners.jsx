@@ -31,7 +31,7 @@ const BannerSlider = () => {
   };
 
   return (
-    <div className="-z-1 relative w-full overflow-hidden">
+    <div className=" relative w-full overflow-hidden">
       <Daste className="absolute top-0 left-0" />
       <div
         className="mt-10  h-[350px] flex transition-transform duration-700 ease-in-out"
@@ -41,16 +41,16 @@ const BannerSlider = () => {
           <img key={index} src={banner} alt={`Banner ${index + 1}`} className="w-full flex-shrink-0" />
         ))}
       </div>
-      <div className="absolute z-100 mb-5  bottom-2 right-4 flex space-x-2">
+      <div className="absolute  mb-5  bottom-2 right-4 flex space-x-2">
         <button
           onClick={prevSlide}
-          className="bg-gray-800  p-2 text-white rounded-full"
+          className="bg-gray-800  p-2 text-white rounded-full z-20"
         >
           <FaChevronLeft />
         </button>
         <button
           onClick={nextSlide}
-          className=" bg-gray-800 p-2 text-white rounded-full"
+          className=" bg-gray-800 p-2 text-white rounded-full z-20"
         >
           <FaChevronRight />
         </button>

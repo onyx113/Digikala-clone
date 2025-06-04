@@ -4,19 +4,19 @@ export default function Footer1() {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center">
             <img src="./src/images/Footer/zemanat.svg" alt="ضمانت اصل بودن کالا" className="w-12 h-12" />
-            <p className="mt-2">ضمانت اصل بودن کالا</p>
+            <p className="mt-2 text-sm">ضمانت اصل بودن کالا</p>
           </div>
           <div className="flex flex-col items-center">
             <img src="./src/images/Footer/haft.svg" alt="هفت روز ضمانت بازگشت کالا" className="w-12 h-12" />
-            <p className="mt-2">هفت روز ضمانت بازگشت کالا</p>
+            <p className="mt-2 text-sm">هفت روز ضمانت بازگشت کالا</p>
           </div>
           <div className="flex flex-col items-center">
             <img src="./src/images/Footer/24saat.svg" alt="۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم" className="w-12 h-12" />
-            <p className="mt-2"> هفت روز هفته ،  24 ساعته پاسخگوی شما هستیم</p>
+            <p className="mt-2 text-sm">هفت روز هفته،24 ساعته پاسخگوی شما هستیم</p>
           </div>
           <div className="flex flex-col items-center">
             <img src="./src/images/Footer/emk-pardakh.svg" alt="امکان پرداخت در محل" className="w-12 h-12" />
-            <p className="mt-2">امکان پرداخت در محل</p>
+            <p className="mt-2 text-sm">امکان پرداخت در محل</p>
           </div>
         </div>
         

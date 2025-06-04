@@ -78,15 +78,15 @@ export default function ProductSlider() {
   return (
     <div className="relative bg-red-500 p-4 rounded-lg">
       <div className="flex items-center relative">
-        <div className="absolute top-1/2 transform -translate-y-1/2 flex flex-col space-y-2 z-10">
-          <button onClick={handlePrev} className="p-2 bg-white rounded-full shadow-md">
+        <div className="absolute top-1/2 transform -translate-y-1/2 flex flex-col space-y-2 ">
+          <button onClick={handlePrev} className="p-2 bg-white rounded-full shadow-md z-20">
             <ChevronLeft />
           </button>
-          <button onClick={handleNext} className="p-2 bg-white rounded-full shadow-md">
+          <button onClick={handleNext} className="p-2 bg-white rounded-full shadow-md z-20">
             <ChevronRight />
           </button>
         </div>
-        <div ref={scrollRef} className="overflow-x-auto w-full whitespace-nowrap scrollbar-hide">
+        <div ref={scrollRef} className="overflow-x-auto w-full scrollbar-hide ">
           <div className="flex space-x-4 ml-12">
             {products.map((product) => (
               <div
