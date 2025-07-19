@@ -1,6 +1,6 @@
 export default function Footer1() {
     return (
-      <footer className="bg-gray-100 text-gray-700 p-8 text-right rtl">
+      <footer className="bg-gray-100 text-gray-700 p-8 text-right rtl font-Dana">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center">
             <img src="./src/images/Footer/zemanat.svg" alt="ضمانت اصل بودن کالا" className="w-12 h-12" />

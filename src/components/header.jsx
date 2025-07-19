@@ -2,7 +2,7 @@ import Daste from './daste';
 
 export default function Header1(){
     return(
-      <header className='shadow-lg bg-white'>
+      <header className='shadow-lg bg-white font-Dana'>
         <div className='fixed bg-white left-0 right-0 z-50 font-medium text-1xl  top-0 flex p-3 justify-between h-18 items-center  '>
       
       <div className='flex gap-5 w-2/12 items-center  '>
@@ -21,7 +21,7 @@ export default function Header1(){
 
          <div className='h-15/12 bg-neutral-100 grow rounded-md px-0 flex'>
 
-         <input className='w-full h-full text-right text-neutral-500 items-center justify-center flex' type="text" placeholder='جستجو' />
+         <input className='w-full h-full text-right text-neutral-500 items-center justify-center flex focus:outline-0 ' type="text" placeholder='جستجو' />
 
          <img className='flex cursor-pointer opacity-25 size-7 m-2' src="./src/images/search.svg" alt="search" />
 
@@ -34,18 +34,18 @@ export default function Header1(){
       
       </div>
 
-      <nav className='flex top-0 sticky gap-5 text-right items-center pr-3 w-full mt-18 p-2 shadow-lg' dir="rtl">
+      <nav className='flex top-0 sticky gap-5 text-right items-center pr-3 w-full mt-18 p-2 shadow-lg ' dir="rtl">
         <span className=' group opacity-85 cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>دسته بندی کالاها
         
         <Daste/>
 
         </span>
-        <div className='opacity-50 z-100 inline-flex gap-2'>
-          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>شگفت انگیز</div>
-          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>سوپر مارکت</div>
-          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>طلای دیجیتال</div>
-          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>پرفروش ترینها</div>
-          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300'>خرید کالا کارکرده</div>
+        <div className=' z-100 inline-flex gap-4'>
+          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300 text-zinc-600 hover:text-black'>شگفت انگیز</div>
+          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300 text-zinc-600 hover:text-black'>سوپر مارکت</div>
+          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300 text-zinc-600 hover:text-black'>طلای دیجیتال</div>
+          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300 text-zinc-600 hover:text-black'>پرفروش ترینها</div>
+          <div href='#' className='cursor-pointer relative after:content-[""] after:absolute after:w-full after:h-0.5 hover:after:bg-red-600 after:right-0 after:top-[2rem] after:transition-all after:duration-300 text-zinc-600 hover:text-black'>خرید کالا کارکرده</div>
         </div>
         </nav>
       
