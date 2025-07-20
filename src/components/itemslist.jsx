@@ -53,6 +53,11 @@ const products = [
   },
 ];
 
+
+
+
+
+
 export default function ProductSlider() {
   const scrollRef = useRef(null);
   const [isAtStart, setIsAtStart] = useState(true);
@@ -117,6 +122,12 @@ export default function ProductSlider() {
     scrollRef.current?.scrollBy({ left: scrollAmount, behavior: 'smooth' });
   };
 
+
+
+
+
+
+
   return (
     <div dir="rtl" className="bg-red-500 p-4 rounded-lg font-Dana w-full max-w-7xl mx-auto">
       <div className="flex items-center gap-x-5">
@@ -128,14 +139,14 @@ export default function ProductSlider() {
             <button
               onClick={handleNext}
               disabled={isAtStart}
-              className="p-2 bg-white rounded-full shadow-md disabled:opacity-50 disabled:cursor-not-allowed transition-opacity"
+              className="p-2 bg-white rounded-full shadow-md disabled:opacity-50 disabled:cursor-not-allowed transition-opacity hover:cursor-pointer"
             >
               <ChevronRight />
             </button>
             <button
               onClick={handlePrev}
               disabled={isAtEnd}
-              className="p-2 bg-white rounded-full shadow-md disabled:opacity-50 disabled:cursor-not-allowed transition-opacity"
+              className="p-2 bg-white rounded-full shadow-md disabled:opacity-50 disabled:cursor-not-allowed transition-opacity hover:cursor-pointer"
             >
               <ChevronLeft />
             </button>
